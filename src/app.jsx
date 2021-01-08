@@ -1,12 +1,9 @@
 import React,{ useState, useEffect} from 'react';
+import Example from './Example.jsx';
 
 function App (){
 
-	return(
-		<>
-			<h1>Hello</h1>
-		</>
-	);
+	return <Example/>;
 }
 
 export default App;
